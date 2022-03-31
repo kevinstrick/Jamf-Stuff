@@ -1,0 +1,1 @@
+#!/bin/sh#This script has been verified to work on Sophos SafeGuard (v 05.49.00).#Check to see if SafeGuard is installedif [ -f "/usr/bin/sgadmin" ]; thenresult=`/usr/bin/sgadmin --status | grep -A 3 "Volume info" | grep "| 0" | awk 'BEGIN { FS = "|" } ; {print $6}' | awk '{print $1}'`	echo "<result>$result</result>"else	echo "<result>Not installed</result>"fi	
