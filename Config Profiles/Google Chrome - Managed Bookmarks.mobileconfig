@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.google.Chrome</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>ManagedBookmarks</key>
+								<array>
+									<dict>
+										<key>toplevel_name</key>
+										<string>ACME</string>
+									</dict>
+									<dict>
+										<key>children</key>
+										<array>
+											<dict>
+												<key>name</key>
+												<string>Citrix Receiver</string>
+												<key>url</key>
+												<string>https://CITRIX.ACME.com/</string>
+											</dict>
+											<dict>
+												<key>name</key>
+												<string>Box</string>
+												<key>url</key>
+												<string>https://ACME.app.box.com/</string>
+											</dict>
+											<dict>
+												<key>name</key>
+												<string>Self Service</string>
+												<key>url</key>
+												<string>selfservice://</string>
+											</dict>
+											<dict>
+												<key>name</key>
+												<string>Timecard</string>
+												<key>url</key>
+												<string>http://TIMECARD.Acme.com/</string>
+											</dict>
+											<dict>
+												<key>name</key>
+												<string>Outlook Web Access</string>
+												<key>url</key>
+												<string>https://outlook.com/owa/ACME</string>
+											</dict>
+											<dict>
+												<key>name</key>
+												<string>PeopleSoft</string>
+												<key>url</key>
+												<string>https://Peoplesoft.ACME.com/</string>
+											</dict>
+											<dict>
+												<key>name</key>
+												<string>ServiceNow</string>
+												<key>url</key>
+												<string>https://ACME.service-now.com/</string>
+											</dict>
+										</array>
+										<key>name</key>
+										<string>Corporate Apps</string>
+									</dict>
+									<dict>
+										<key>children</key>
+										<array>
+											<dict>
+												<key>name</key>
+												<string>ACME Careers</string>
+												<key>url</key>
+												<string>http://CAREERS.ACME.com/</string>
+											</dict>
+											<dict>
+												<key>name</key>
+												<string>ACME Learning</string>
+												<key>url</key>
+												<string>http://LEARNING.ACME.net/</string>
+											</dict>
+											<dict>
+												<key>name</key>
+												<string>ACME Portal</string>
+												<key>url</key>
+												<string>http://www.ACME.com/</string>
+											</dict>
+											<dict>
+												<key>name</key>
+												<string>ACME International</string>
+												<key>url</key>
+												<string>http://International.ACME.com/</string>
+											</dict>
+											<dict>
+												<key>name</key>
+												<string>ACME Widgets</string>
+												<key>url</key>
+												<string>http://WIDGETS.ACME.com/</string>
+											</dict>
+											<dict>
+												<key>name</key>
+												<string>ACMEcom</string>
+												<key>url</key>
+												<string>http://www.ACME.com/</string>
+											</dict>
+											<dict>
+												<key>name</key>
+												<string>ACME HR</string>
+												<key>url</key>
+												<string>http://HR.ACME.com/</string>
+											</dict>
+										</array>
+										<key>name</key>
+										<string>Corporate Favorites</string>
+									</dict>
+								</array>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Custom</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>06BBECB5-231A-4454-8437-0B742664C849</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>06BBECB5-231A-4454-8437-0B742664C849</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string></string>
+	<key>PayloadDisplayName</key>
+	<string>Google Chrome - Managed Bookmarks</string>
+	<key>PayloadIdentifier</key>
+	<string>com.google.chrome.bookmarks.acme</string>
+	<key>PayloadOrganization</key>
+	<string>ACME Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>User</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>31C12858-E9FF-4EED-997E-F8AC81EE544C</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>

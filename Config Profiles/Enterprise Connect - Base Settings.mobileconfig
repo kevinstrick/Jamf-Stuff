@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.Enterprise-Connect</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>adRealm</key>
+								<string>DOMAIN.ACME.com</string>
+								<key>passwordChangeScriptPath</key>
+								<string>/Library/Application Support/FEG/EC/ec_password_change.sh</string>
+								<key>passwordNotificationDays</key>
+								<string>14</string>
+								<key>pwReqComplexity</key>
+								<false/>
+								<key>pwReqLength</key>
+								<integer>16</integer>
+								<key>syncLocalPassword</key>
+								<true/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Custom</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>EC9E8D75-2CAF-4290-9D26-B74909CB76F3</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>EC9E8D75-2CAF-4290-9D26-B74909CB76F3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string></string>
+	<key>PayloadDisplayName</key>
+	<string>Enterprise Connect - Base Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>COM.ENTERPRISECONNECT.ACME</string>
+	<key>PayloadOrganization</key>
+	<string>ACME Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>E3A1EBB6-8BFB-44FD-B0F3-6F2288783AEC</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>8B42BF7B-6D5F-41B8-8430-0E385C411C10</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>8B42BF7B-6D5F-41B8-8430-0E385C411C10</string>
+    <key>PayloadDisplayName</key>
+    <string>Skype for Business - Auto-Discover URLs</string>
+    <key>PayloadDescription</key>
+    <string/>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>281D2FD5-AB5E-4274-9169-AF46F25842C1</string>
+        <key>PayloadType</key>
+        <string>com.apple.ManagedClient.preferences</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>281D2FD5-AB5E-4274-9169-AF46F25842C1</string>
+        <key>PayloadDisplayName</key>
+        <string>Custom</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadContent</key>
+        <dict>
+          <key>com.microsoft.SkypeForBusiness</key>
+          <dict>
+            <key>Forced</key>
+            <array>
+              <dict>
+                <key>mcx_preference_settings</key>
+                <dict>
+                  <key>autoDetectAutoDicoveryURLs</key>
+                  <true/>
+                  <key>sipAddress</key>
+                  <string>$EMAIL</string>
+                  <key>userName</key>
+                  <string>$USERNAME@ACME.COM</string>
+                </dict>
+              </dict>
+            </array>
+          </dict>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>TCC Whitelist for Zoom Outlook Plugin</string>
+			<key>PayloadDisplayName</key>
+			<string>PPPC-AE-ZoomToOutlook</string>
+			<key>PayloadIdentifier</key>
+			<string>com.foxeg.scds.D688CBB5-B2F6-11E8-9AB1-A860B639B7A2</string>
+			<key>PayloadOrganization</key>
+			<string>ACME</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>DD9B9F0A-77FA-4C2C-8424-FCFDF68645AA</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>AppleEvents</key>
+				<array>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.microsoft.Outlook" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.microsoft.Outlook</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<false/>
+						<key>CodeRequirement</key>
+						<string>identifier "us.zoom.pluginagent" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = BJ4HAAB9B3</string>
+						<key>Comment</key>
+						<string>Allow zOutlookPluginAgent to send AppleEvents control to Microsoft Outlook</string>
+						<key>Identifier</key>
+						<string>us.zoom.pluginagent</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Allow Apple Events from Zoom Plugin to Outlook</string>
+	<key>PayloadDisplayName</key>
+	<string>PPPC - Zoom To Outlook</string>
+	<key>PayloadIdentifier</key>
+	<string>com.zoom.to.outlook.acme</string>
+	<key>PayloadOrganization</key>
+	<string>ACME Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9310F6E7-D836-437F-B2E6-90EE556D42EA</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>

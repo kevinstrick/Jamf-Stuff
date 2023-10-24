@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Font</key>
+			<data>
+
+			</data>
+			<key>Name</key>
+			<string>ACME FONT 1</string>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Font</string>
+			<key>PayloadIdentifier</key>
+			<string>3A7FC9F7-83A1-44C8-A1FE-2C681B48BB0C</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.font</string>
+			<key>PayloadUUID</key>
+			<string>3A7FC9F7-83A1-44C8-A1FE-2C681B48BB0C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Font</key>
+			<data>
+
+			</data>
+			<key>Name</key>
+			<string>ACME Font Two</string>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Font</string>
+			<key>PayloadIdentifier</key>
+			<string>DB249926-26C8-465E-AC29-74F43D7E15A8</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.font</string>
+			<key>PayloadUUID</key>
+			<string>DB249926-26C8-465E-AC29-74F43D7E15A8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Font</key>
+			<data>
+
+			</data>
+			<key>Name</key>
+			<string>ACME Fonts Three/string>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Font</string>
+			<key>PayloadIdentifier</key>
+			<string>2726EEAE-534A-4EE3-82BA-40C09D6EC53B</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.font</string>
+			<key>PayloadUUID</key>
+			<string>2726EEAE-534A-4EE3-82BA-40C09D6EC53B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Font</key>
+			<data>
+
+			</data>
+			<key>Name</key>
+			<string>ACME Font Four/string>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Font</string>
+			<key>PayloadIdentifier</key>
+			<string>573F8422-571E-458E-BDF7-F80C37198F1E</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.font</string>
+			<key>PayloadUUID</key>
+			<string>573F8422-571E-458E-BDF7-F80C37198F1E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Font</key>
+			<data>
+
+			</data>
+			<key>Name</key>
+			<string>ACME Font Five</string>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Font</string>
+			<key>PayloadIdentifier</key>
+			<string>3328F636-EA62-4CE3-BC56-2C3D201ECA46</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.font</string>
+			<key>PayloadUUID</key>
+			<string>3328F636-EA62-4CE3-BC56-2C3D201ECA46</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Font</key>
+			<data>
+
+			</data>
+			<key>Name</key>
+			<string>ACME Font Five</string>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Font</string>
+			<key>PayloadIdentifier</key>
+			<string>40A2497B-A495-4FCD-85E9-A35228499EE1</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.font</string>
+			<key>PayloadUUID</key>
+			<string>40A2497B-A495-4FCD-85E9-A35228499EE1</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Font</key>
+			<data>
+
+			</data>
+			<key>Name</key>
+			<string>Curiosity-TWDC-L</string>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Font</string>
+			<key>PayloadIdentifier</key>
+			<string>601BE896-CCF1-44D1-83F4-2DD5FD9C2895</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.font</string>
+			<key>PayloadUUID</key>
+			<string>601BE896-CCF1-44D1-83F4-2DD5FD9C2895</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included Corporate Fonts</string>
+	<key>PayloadDisplayName</key>
+	<string>ACME Fonts</string>
+	<key>PayloadIdentifier</key>
+	<string>com.fonts.ACME</string>
+	<key>PayloadOrganization</key>
+	<string>ACME Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>3375630D-9A84-4742-B12D-EC7D2215627B</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>

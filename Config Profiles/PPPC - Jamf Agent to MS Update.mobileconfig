@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Allows Jamf Agent to run MS Office Updates</string>
+			<key>PayloadDisplayName</key>
+			<string>PPPC- Jamf Agent Apple Events to MS Update</string>
+			<key>PayloadIdentifier</key>
+			<string>com.ACME.90D5AB42-E930-11E8-8427-2A0001F02A90</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>D52F2A1E-E86D-47C9-A3D2-5FA4CC1D0AE7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>AppleEvents</key>
+				<array>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.microsoft.autoupdate2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.microsoft.autoupdate2</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.jamfsoftware.jamfAgent" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
+						<key>Comment</key>
+						<string>Allow jamfAgent to send AppleEvents control to Microsoft AutoUpdate</string>
+						<key>Identifier</key>
+						<string>/usr/local/jamf/bin/jamfAgent</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.microsoft.autoupdate.cli" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>AEReceiverIdentifier</key>
+						<string>/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app/Contents/MacOS/msupdate</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>path</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.jamfsoftware.jamfAgent" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
+						<key>Comment</key>
+						<string>Allow jamfAgent to send AppleEvents control to msupdate</string>
+						<key>Identifier</key>
+						<string>/usr/local/jamf/bin/jamfAgent</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Allows Jamf Agent to run MS Updates via Apple Events</string>
+	<key>PayloadDisplayName</key>
+	<string>PPPC - Jamf Agent to MS Update</string>
+	<key>PayloadIdentifier</key>
+	<string>com.jamf.msupdate.acme</string>
+	<key>PayloadOrganization</key>
+	<string>ACME Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>44858A2E-6DEB-4066-ACD5-12E6171A4D36</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>

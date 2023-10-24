@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>CERTIFICATE.cer</string>
+			<key>PayloadContent</key>
+			<data>
+			 
+			</data>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>CERTIFICATE</string>
+			<key>PayloadIdentifier</key>
+			<string>F41AE0C8-1648-4D5D-9383-B34EC413527C</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>F41AE0C8-1648-4D5D-9383-B34EC413527C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>Certificate.cer</string>
+			<key>PayloadContent</key>
+			<data>
+
+			</data>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>CERTIFICATE</string>
+			<key>PayloadIdentifier</key>
+			<string>032C7A6E-8061-45AB-B8C8-7D409E3C1DC5</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>032C7A6E-8061-45AB-B8C8-7D409E3C1DC5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>CERTIFICATE.cer</string>
+			<key>PayloadContent</key>
+			<data>
+
+			</data>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>CERTIFICATE</string>
+			<key>PayloadIdentifier</key>
+			<string>A4F1EA11-6DFC-4D5E-87D6-D7E766FBDD7A</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>A4F1EA11-6DFC-4D5E-87D6-D7E766FBDD7A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>CERTIFICATE.cer</string>
+			<key>PayloadContent</key>
+			<data>
+
+			</data>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>CERTIFICATE</string>
+			<key>PayloadIdentifier</key>
+			<string>553EF825-6096-46BD-9FEE-43EA949A09C3</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>553EF825-6096-46BD-9FEE-43EA949A09C3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>CERTIFICATE.cer</string>
+			<key>PayloadContent</key>
+			<data>
+
+			</data>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>CERTIFICATE</string>
+			<key>PayloadIdentifier</key>
+			<string>DDD0812E-7D3E-4D8E-AF0D-043D622CA178</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>DDD0812E-7D3E-4D8E-AF0D-043D622CA178</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string></string>
+	<key>PayloadDisplayName</key>
+	<string>ACME Cisco Jabber Certificates</string>
+	<key>PayloadIdentifier</key>
+	<string>6B84B09D-AC02-4D8B-B9D7-5871086E88CD</string>
+	<key>PayloadOrganization</key>
+	<string>ACME Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>8797948C-3C2F-45A2-B60C-04F56E50C616</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
