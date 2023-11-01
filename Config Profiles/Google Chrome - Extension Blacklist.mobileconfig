@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>BA5C8874-24A9-49F6-A1D0-82A3A1320BD7</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>BA5C8874-24A9-49F6-A1D0-82A3A1320BD7</string>
+    <key>PayloadDisplayName</key>
+    <string>Google Chrome - Extension Blacklist</string>
+    <key>PayloadDescription</key>
+    <string/>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>50DE52FD-A181-4394-B3D9-F040F1029257</string>
+        <key>PayloadType</key>
+        <string>com.apple.security.pkcs1</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>50DE52FD-A181-4394-B3D9-F040F1029257</string>
+        <key>PayloadDisplayName</key>
+        <string>JSS Built-In Signing Certificate</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadCertificateFileName</key>
+        <string>FileVault2Comm.cer</string>
+        <key>PayloadContent</key>
+        <data>MIIDzjCCAragAwIBAgIGAUHtpSw2MA0GCSqGSIb3DQEBCwUAMEUxQzBBBgNVBAMTOkZveCBFbnRlcnRhaW5tZW50IEdyb3VwIEpTUyBCdWlsdC1pbiBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkwHhcNMTMxMDI0MDMyNTI2WhcNMTgxMDI2MDMyNTI2WjBEMRcwFQYDVQQLEw5GSUxFVkFVTFQyQ09NTTEpMCcGA1UEAxMgSlNTIEJ1aWx0LUluIFNpZ25pbmcgQ2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDwTiBjFqAhWVMVOHoV6jtKrrI6/CGWI35VxvByn8iBIBGwGfYNxD6Ap1cCjXOSA9dxUdrmrQnQPQBWNRKuMdikAnANBfs3oQY9JctSpK6xsavy/yuD4EL0MqgLCOmD0GU/N0Ag70svhAo3WbMfyErMXkigJVJ62NwWaIwJYiJSJRBzg4XdCy/UTC0F7/whsMejo0umDV3xyzKfP6gc4jtR48fJUhwGGdmmJuzhMj7k3u8+QC8j/YRF8vXBoyvTUoejUJ3Hg+PbfFjiuYcqO+ckgTvVeWsXkPyFgc+0uV207vd892GoJpzYWUVlBmQTOR0KBuFn0SwvJyE65C9ZgIBtAgMBAAGjgcQwgcEwHQYDVR0OBBYEFAdrRJwArgfYDAwGkuAIBjVyNYZnMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwEB/wQEAwIBpjAMBgNVHRMBAf8EAjAAMEwGA1UdHwRFMEMwQaA/oD2GO2h0dHBzOi8vZmZldXNwbG14YXAwNi5mZmUuZm94ZWcuY29tOjg0NDMvL0NBL0pBTUZDUkxTZXJ2bGV0MB8GA1UdIwQYMBaAFAbZExWlFYU0Ih4tlBCp3QSIwHgmMA0GCSqGSIb3DQEBCwUAA4IBAQCArPoC3lhXMgwLXnmxifYMaXQWnP3tfKBaJpzdu81qbkXbmWzRgw8hsDWW1Sj3DJWBXrwzIb6XRZLb3WiRuiKwbnWzZ41bSClXNJPsMoONiHDcp3/WupoOjqUXtpFyh7wx8thAu/DnQCOF1fgcJjw5dHcSSEtoWRykAma+syBUHFfX3gCZ/ZpbI1SRYhhHqYQ9IGZG3NEqpDu9LOC2HZQjcmJC31EfkvSzRiYCyBabnqPVZzqTaaX/6kZRdP0RtvNAWerYHOI/gbcDiuHMI6DRCwOH/wyyMwtHc2J0Apwqw/4I4nWIhQLBvMm/tE4PMCo7MRezuVkCOHar7QQdqOv0</data>
+        <key>AllowAllAppsAccess</key>
+        <false/>
+      </dict>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>9863462D-1270-4C45-B669-3709D593D679</string>
+        <key>PayloadType</key>
+        <string>com.apple.ManagedClient.preferences</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>9863462D-1270-4C45-B669-3709D593D679</string>
+        <key>PayloadDisplayName</key>
+        <string>Custom</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadContent</key>
+        <dict>
+          <key>com.google.Chrome</key>
+          <dict>
+            <key>Forced</key>
+            <array>
+              <dict>
+                <key>mcx_preference_settings</key>
+                <dict>
+                  <key>ExtensionInstallBlacklist</key>
+                  <array>
+                    <string>gbchcmhmhahfdphkhkmpfmihenigjmpp</string>
+                    <string>gkojfkhlekighikafcpjkiklfbnlmeio</string>
+                    <string>epbfmioobedknooiakdehepogalbgkng</string>
+                  </array>
+                </dict>
+              </dict>
+            </array>
+          </dict>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

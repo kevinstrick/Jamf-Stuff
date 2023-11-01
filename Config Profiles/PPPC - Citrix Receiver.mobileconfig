@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>54e0d0bb-2a2b-4c0b-ba20-27aec0a3a5c7</string>
+    <key>PayloadType</key>
+    <string>com.apple.TCC.configuration-profile-policy</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>54e0d0bb-2a2b-4c0b-ba20-27aec0a3a5c7</string>
+    <key>PayloadDisplayName</key>
+    <string>TCC - Citrix Receiver</string>
+    <key>PayloadDescription</key>
+    <string>Citrix Receiver indirect access via Apple Events</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>06EF57D6-9BB6-4A43-AFB1-6BDEB2F68E07</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc. SCDS</string>
+        <key>PayloadIdentifier</key>
+        <string>079C7C6C-308A-4AF4-B045-0827E439C848</string>
+        <key>PayloadDisplayName</key>
+        <string>TCC - Citrix Receiver</string>
+        <key>PayloadDescription</key>
+        <string>Citrix Receiver indirect access via Apple Events</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>AppleEvents</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>com.citrix.receiver.nomas</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.citrix.receiver.nomas" and certificate leaf = H"c4f34fc473d39d29f62c8e71bb211b354ae7c4fd"</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.citrix.receiver.nomas</string>
+              <key>IdentifierType</key>
+              <string>bundleID</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.citrix.receiver.nomas" and certificate leaf = H"c4f34fc473d39d29f62c8e71bb211b354ae7c4fd"</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

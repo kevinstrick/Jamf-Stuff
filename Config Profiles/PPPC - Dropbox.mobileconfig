@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>199f8c37-69e0-49f3-b392-bbc305bc704f</string>
+    <key>PayloadType</key>
+    <string>com.apple.TCC.configuration-profile-policy</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>199f8c37-69e0-49f3-b392-bbc305bc704f</string>
+    <key>PayloadDisplayName</key>
+    <string>TCC - Dropbox</string>
+    <key>PayloadDescription</key>
+    <string/>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>CFA3DC31-073D-40A8-919A-CD4B195F988C</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc. SCDS</string>
+        <key>PayloadIdentifier</key>
+        <string>7DD7619C-0349-4219-8C79-520EA27B5D47</string>
+        <key>PayloadDisplayName</key>
+        <string>TCC - Dropbox</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>Accessibility</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>com.getdropbox.dropbox</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.getdropbox.dropbox" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G7HH3F8CAK</string>
+              <key>IdentifierType</key>
+              <string>bundleID</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>PostEvent</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>com.getdropbox.dropbox</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.getdropbox.dropbox" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G7HH3F8CAK</string>
+              <key>IdentifierType</key>
+              <string>bundleID</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

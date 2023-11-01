@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>A4D7B787-3F9C-4304-8F5D-81891615BFF3</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>A4D7B787-3F9C-4304-8F5D-81891615BFF3</string>
+    <key>PayloadDisplayName</key>
+    <string>TCC - Tanium Client</string>
+    <key>PayloadDescription</key>
+    <string>Tanium Client - Basic Access to files and AE</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>611EC63D-2428-11E9-B761-2A0001F02A90</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>com.foxeg.scds.tanium.611EC63D-2428-11E9-B761-2A0001F02A90</string>
+        <key>PayloadDisplayName</key>
+        <string>TCC  - Tanium</string>
+        <key>PayloadDescription</key>
+        <string>TCC Whitelist for Tanium Components</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>SystemPolicySysAdminFiles</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string>Allow SystemPolicySysAdminFiles control for TaniumClient</string>
+              <key>Identifier</key>
+              <string>/Library/Tanium/TaniumClient/TaniumClient</string>
+              <key>CodeRequirement</key>
+              <string>identifier TaniumClient and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = TZTPM3VTUU</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>AppleEvents</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string>Allow TaniumClient to send AppleEvents control to Finder</string>
+              <key>Identifier</key>
+              <string>/Library/Tanium/TaniumClient/TaniumClient</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier TaniumClient and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = TZTPM3VTUU</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.finder</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.finder" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow TaniumClient to send AppleEvents control to SystemUIServer</string>
+              <key>Identifier</key>
+              <string>/Library/Tanium/TaniumClient/TaniumClient</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier TaniumClient and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = TZTPM3VTUU</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemuiserver</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemuiserver" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow TaniumClient to send AppleEvents control to System Events</string>
+              <key>Identifier</key>
+              <string>/Library/Tanium/TaniumClient/TaniumClient</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier TaniumClient and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = TZTPM3VTUU</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemevents</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemevents" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>SystemPolicyAllFiles</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string>Allow SystemPolicyAllFiles control for TaniumClient</string>
+              <key>Identifier</key>
+              <string>/Library/Tanium/TaniumClient/TaniumClient</string>
+              <key>CodeRequirement</key>
+              <string>identifier TaniumClient and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = TZTPM3VTUU</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>PostEvent</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string>Allow PostEvent control for TaniumClient</string>
+              <key>Identifier</key>
+              <string>/Library/Tanium/TaniumClient/TaniumClient</string>
+              <key>CodeRequirement</key>
+              <string>identifier TaniumClient and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = TZTPM3VTUU</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

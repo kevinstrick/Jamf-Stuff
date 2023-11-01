@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>571DBC76-E810-49A6-94FB-A2FEA69A8ADB</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>com.github.erikberglund.ProfileCreatorE9FBD744-247E-474D-926B-7D7889867522</string>
+    <key>PayloadDisplayName</key>
+    <string>Screen Saver - Inactivity interval set to 2 Hours</string>
+    <key>PayloadDescription</key>
+    <string>SCS requirement 2.3.1 Security Violation (Approved for limited NGP Usage)</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>1EE87BD7-2213-40E8-9A00-076E9786BA2C</string>
+        <key>PayloadType</key>
+        <string>com.apple.screensaver</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>com.apple.screensaver.1EE87BD7-2213-40E8-9A00-076E9786BA2C</string>
+        <key>PayloadDisplayName</key>
+        <string>Screensaver</string>
+        <key>PayloadDescription</key>
+        <string>Screensaver settings</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>loginWindowIdleTime</key>
+        <integer>7200</integer>
+        <key>idleTime</key>
+        <integer>7200</integer>
+        <key>loginWindowModulePath</key>
+        <string>/System/Library/Screen Savers/Flurry.saver</string>
+      </dict>
+    </array>
+  </dict>
+</plist>

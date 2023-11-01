@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>eb430268-d385-4b4f-aa55-ecc552783f98</string>
+    <key>PayloadType</key>
+    <string>com.apple.TCC.configuration-profile-policy</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>eb430268-d385-4b4f-aa55-ecc552783f98</string>
+    <key>PayloadDisplayName</key>
+    <string>TCC - Outset to Finder</string>
+    <key>PayloadDescription</key>
+    <string>Outset Access to run scripts that access the Finder using Apple Events</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>FE3A4F79-C705-44C1-952C-852093E67BCB</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>29AE2DB0-4E59-42CC-9A2E-72526E0E9AE8</string>
+        <key>PayloadDisplayName</key>
+        <string>TCC - Outset to Finder</string>
+        <key>PayloadDescription</key>
+        <string>Outset Access to run scripts that access the Finder using Apple Events</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>AppleEvents</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>/usr/local/outset/outset</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.github.outset" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Kevin Strick (KCD76Z8E9U)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.finder</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.finder" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

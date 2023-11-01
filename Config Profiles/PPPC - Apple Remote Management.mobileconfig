@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>A82CD3F9-412F-451A-87B2-36E3E09CD468</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>A82CD3F9-412F-451A-87B2-36E3E09CD468</string>
+    <key>PayloadDisplayName</key>
+    <string>TCC - Apple Remote Management</string>
+    <key>PayloadDescription</key>
+    <string/>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>220EF6C5-D07A-11E8-ADF6-D0817ADA38E4</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>Company Name</string>
+        <key>PayloadIdentifier</key>
+        <string>com.company.appleremotemanagement.tcc.privacy.whitelist.220EF6C5-D07A-11E8-ADF6-D0817ADA38E4</string>
+        <key>PayloadDisplayName</key>
+        <string>Privacy Settings Whitelist - Apple Remote Management</string>
+        <key>PayloadDescription</key>
+        <string>This profile allows Allow Control mode when starting Apple Remote Management via kickstart</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>PostEvent</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string>Allow PostEvent control for ScreensharingAgent</string>
+              <key>Identifier</key>
+              <string>com.apple.screensharing.agent</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.screensharing.agent" and anchor apple</string>
+              <key>IdentifierType</key>
+              <string>bundleID</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

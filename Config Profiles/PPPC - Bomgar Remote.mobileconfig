@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>e523012d-4d2e-49a0-807b-c6f25384c3cb</string>
+    <key>PayloadType</key>
+    <string>com.apple.TCC.configuration-profile-policy</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>e523012d-4d2e-49a0-807b-c6f25384c3cb</string>
+    <key>PayloadDisplayName</key>
+    <string>TCC - Bomgar Remote</string>
+    <key>PayloadDescription</key>
+    <string/>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>34998EE9-B7BD-4A35-8A9B-C1826F0506EC</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>664AA0F0-08EE-4C65-BA60-560466C183DF</string>
+        <key>PayloadDisplayName</key>
+        <string>TCC - Bomgar Remote </string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>Accessibility</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>com.bomgar.bomgar-scc</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.bomgar.bomgar-scc" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = B65TM49E24</string>
+              <key>IdentifierType</key>
+              <string>bundleID</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>SystemPolicySysAdminFiles</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>com.bomgar.bomgar-scc</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.bomgar.bomgar-scc" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = B65TM49E24</string>
+              <key>IdentifierType</key>
+              <string>bundleID</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>AppleEvents</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>com.bomgar.bomgar-scc</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.bomgar.bomgar-scc" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = B65TM49E24</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemevents</string>
+              <key>IdentifierType</key>
+              <string>bundleID</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemevents" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>PostEvent</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>com.bomgar.bomgar-scc</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.bomgar.bomgar-scc" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = B65TM49E24</string>
+              <key>IdentifierType</key>
+              <string>bundleID</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

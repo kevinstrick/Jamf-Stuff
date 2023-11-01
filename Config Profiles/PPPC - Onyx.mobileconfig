@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>b43c8025-58d1-4824-9d67-12ae2323fc4b</string>
+    <key>PayloadType</key>
+    <string>com.apple.TCC.configuration-profile-policy</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>b43c8025-58d1-4824-9d67-12ae2323fc4b</string>
+    <key>PayloadDisplayName</key>
+    <string>TCC - Onyx</string>
+    <key>PayloadDescription</key>
+    <string>Allow Onyx disk access to run maintenance tasks</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>128354C4-8977-4B6F-8034-4277E18AABD1</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>E9B36C95-8F6E-4F94-883A-722380DAF33E</string>
+        <key>PayloadDisplayName</key>
+        <string>TCC - Onyx</string>
+        <key>PayloadDescription</key>
+        <string>Allow Onyx disk access to run maintenance tasks</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>SystemPolicyAllFiles</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>com.titanium.OnyX</string>
+              <key>CodeRequirement</key>
+              <string>anchor apple generic and identifier "com.titanium.OnyX" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = T49MRBL8UL)</string>
+              <key>IdentifierType</key>
+              <string>bundleID</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

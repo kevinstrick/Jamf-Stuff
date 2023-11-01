@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>68BCF609-BC07-43B9-A997-C25518C04F9B</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>68BCF609-BC07-43B9-A997-C25518C04F9B</string>
+    <key>PayloadDisplayName</key>
+    <string>MS Office  - System-Wide Defaults</string>
+    <key>PayloadDescription</key>
+    <string>- Turns "What's New" off&#13;- Sets default open/save dialogs to local</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>169FE2E8-7579-455D-BEF7-5A65AE4780A3</string>
+        <key>PayloadType</key>
+        <string>com.apple.ManagedClient.preferences</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>169FE2E8-7579-455D-BEF7-5A65AE4780A3</string>
+        <key>PayloadDisplayName</key>
+        <string>Custom</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadContent</key>
+        <dict>
+          <key>com.microsoft.office</key>
+          <dict>
+            <key>Forced</key>
+            <array>
+              <dict>
+                <key>mcx_preference_settings</key>
+                <dict>
+                  <key>ShowWhatsNewOnLaunch</key>
+                  <false/>
+                  <key>DefaultsToLocalOpenSave</key>
+                  <true/>
+                </dict>
+              </dict>
+            </array>
+          </dict>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

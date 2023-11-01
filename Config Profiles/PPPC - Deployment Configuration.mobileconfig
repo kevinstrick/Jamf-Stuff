@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>98DD9836-22F5-481A-824B-2ADB4D39DE2F</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>98DD9836-22F5-481A-824B-2ADB4D39DE2F</string>
+    <key>PayloadDisplayName</key>
+    <string>TCC - Deployment Configuration</string>
+    <key>PayloadDescription</key>
+    <string>Allows deployment script(s) to have access to system events and automation processes</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>7EFAE4A6-F732-11E8-92C5-A860B639B7A2</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>com.feg.scds.deployment.configuration.7EFAE4A6-F732-11E8-92C5-A860B639B7A2</string>
+        <key>PayloadDisplayName</key>
+        <string>TCC - Deployment Configuaration</string>
+        <key>PayloadDescription</key>
+        <string>TCC deployment configuration script</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>AppleEvents</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string>Allow DEP_Configure to send AppleEvents control to System Events</string>
+              <key>Identifier</key>
+              <string>/private/tmp/DEP_Configure.sh</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.feg.scds.dep.configure" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Kevin Strick (KCD76Z8E9U)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemevents</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemevents" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow DEP_Configure to send AppleEvents control to Finder</string>
+              <key>Identifier</key>
+              <string>/private/tmp/DEP_Configure.sh</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.feg.scds.dep.configure" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Kevin Strick (KCD76Z8E9U)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.finder</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.finder" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>SystemPolicyAllFiles</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string>Allow SystemPolicyAllFiles control for DEP_Configure</string>
+              <key>Identifier</key>
+              <string>/private/tmp/DEP_Configure.sh</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.feg.scds.dep.configure" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Kevin Strick (KCD76Z8E9U)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>PostEvent</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string>Allow PostEvent control for DEP_Configure</string>
+              <key>Identifier</key>
+              <string>/private/tmp/DEP_Configure.sh</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.feg.scds.dep.configure" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Kevin Strick (KCD76Z8E9U)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

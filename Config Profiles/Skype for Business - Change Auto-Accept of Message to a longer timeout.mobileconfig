@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>A7E7D376-63CA-4389-B51F-EB66F393628B</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>A7E7D376-63CA-4389-B51F-EB66F393628B</string>
+    <key>PayloadDisplayName</key>
+    <string>Skype for Business - Change Auto-Accept of Message to a longer timeout</string>
+    <key>PayloadDescription</key>
+    <string>Replaces the default 5 minute limit with 4 hours. This is subject to change.</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>F8EE501D-CB0C-4C8A-B142-4B8C4CFDA6FB</string>
+        <key>PayloadType</key>
+        <string>com.apple.ManagedClient.preferences</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>F8EE501D-CB0C-4C8A-B142-4B8C4CFDA6FB</string>
+        <key>PayloadDisplayName</key>
+        <string>Custom</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadContent</key>
+        <dict>
+          <key>com.microsoft.SkypeForBusiness</key>
+          <dict>
+            <key>Forced</key>
+            <array>
+              <dict>
+                <key>mcx_preference_settings</key>
+                <dict>
+                  <key>autoAcceptTimeout</key>
+                  <integer>14400</integer>
+                </dict>
+              </dict>
+            </array>
+          </dict>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

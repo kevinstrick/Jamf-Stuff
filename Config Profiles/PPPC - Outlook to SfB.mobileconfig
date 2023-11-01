@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>d37c312b-09e8-40a3-b2cf-927e47cf12b2</string>
+    <key>PayloadType</key>
+    <string>com.apple.TCC.configuration-profile-policy</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>d37c312b-09e8-40a3-b2cf-927e47cf12b2</string>
+    <key>PayloadDisplayName</key>
+    <string>TCC - Outlook to SfB</string>
+    <key>PayloadDescription</key>
+    <string>Apple Events access from Outlook to Skype for Business</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>63191B92-0BA3-489A-B880-98ED69092342</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc. SCDS</string>
+        <key>PayloadIdentifier</key>
+        <string>4A4F06A7-16BA-490B-98EC-2DF4C9092B87</string>
+        <key>PayloadDisplayName</key>
+        <string>TCC - Outlook to SfB</string>
+        <key>PayloadDescription</key>
+        <string>Apple Events access from Outlook to Skype for Business</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>AppleEvents</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>com.microsoft.Outlook</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.microsoft.Outlook" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.microsoft.SkypeForBusiness</string>
+              <key>IdentifierType</key>
+              <string>bundleID</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.microsoft.SkypeForBusiness" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = AL798K98FX</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

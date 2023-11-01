@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures Setup Assistant settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Setup Assistant</string>
+			<key>PayloadIdentifier</key>
+			<string>com.ACME.SCDS.CCD9B320-B6C9-406A-BD8F-112F359ED6E2.com.apple.SetupAssistant.managed.EA003274-8472-44ED-A442-7BC43151E5C6</string>
+			<key>PayloadOrganization</key>
+			<string>ACME Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.SetupAssistant.managed</string>
+			<key>PayloadUUID</key>
+			<string>EA003274-8472-44ED-A442-7BC43151E5C6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SkipAppearance</key>
+			<false/>
+			<key>SkipCloudSetup</key>
+			<true/>
+			<key>SkipPrivacySetup</key>
+			<false/>
+			<key>SkipSiriSetup</key>
+			<true/>
+			<key>SkipTouchIDSetup</key>
+			<false/>
+			<key>SkipTrueTone</key>
+			<false/>
+			<key>SkipiCloudStorageSetup</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Skip Siri and iCloud options in Setup Assistant </string>
+	<key>PayloadDisplayName</key>
+	<string>macOS - Setup Assistant Options</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>com.ACME.SCDS.CCD9B320-B6C9-406A-BD8F-112F359ED6E2</string>
+	<key>PayloadOrganization</key>
+	<string>ACME Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>User</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>BBED0535-B107-45BF-BFDA-4099F75D95AC</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

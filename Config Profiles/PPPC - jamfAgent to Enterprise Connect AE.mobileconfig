@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>32252e13-a31a-434b-a733-2d0fa514e590</string>
+    <key>PayloadType</key>
+    <string>com.apple.TCC.configuration-profile-policy</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>32252e13-a31a-434b-a733-2d0fa514e590</string>
+    <key>PayloadDisplayName</key>
+    <string>TCC - jamfAgent to Enterprise Connect AE</string>
+    <key>PayloadDescription</key>
+    <string>jamfAgent access to Enterprise Connect through Apple Events</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>4E64D765-28DD-46B8-A5AB-0715AB588424</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>6D9F0133-ADCE-488D-9E45-5467187358B3</string>
+        <key>PayloadDisplayName</key>
+        <string>TCC - jamfAgent to Enterprise Connect AE</string>
+        <key>PayloadDescription</key>
+        <string>jamfAgent access to Enterprise Connect through Apple Events</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>AppleEvents</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>/usr/local/jamf/bin/jamfAgent</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.jamfsoftware.jamfAgent" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.Enterprise-Connect</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.Enterprise-Connect" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>/usr/local/jamf/bin/jamf</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.jamfsoftware.jamf" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.Enterprise-Connect</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.Enterprise-Connect" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures Siri settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Siri</string>
+			<key>PayloadIdentifier</key>
+			<string>com.ACME.SCDS.450EB705-E957-4892-BCC6-542277887680.com.apple.Siri.BAAA1EFC-365F-4A78-8100-0ADC778C75F5</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.Siri</string>
+			<key>PayloadUUID</key>
+			<string>BAAA1EFC-365F-4A78-8100-0ADC778C75F5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>StatusMenuVisible</key>
+			<false/>
+			<key>UserHasDeclinedEnable</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>macOS - Disable Siri</string>
+	<key>PayloadIdentifier</key>
+	<string>com.ACME.450EB705-E957-4892-BCC6-542277887680</string>
+	<key>PayloadOrganization</key>
+	<string>ACME Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>3DF7BE60-0766-4EEB-951F-70F98A90D674</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

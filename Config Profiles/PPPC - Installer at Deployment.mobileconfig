@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>5c035414-1723-4405-8235-07dbcce5344d</string>
+    <key>PayloadType</key>
+    <string>com.apple.TCC.configuration-profile-policy</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>5c035414-1723-4405-8235-07dbcce5344d</string>
+    <key>PayloadDisplayName</key>
+    <string>TCC - Installer at Deployment</string>
+    <key>PayloadDescription</key>
+    <string>Allows the Installer process access to certain services during Deployment configuration tasks</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>44A8B64F-695B-4FD2-8E0A-13687FF91E80</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>43C01395-1BE1-4CDF-B480-991E36B3CD51</string>
+        <key>PayloadDisplayName</key>
+        <string>TCC - Installer at Deployment</string>
+        <key>PayloadDescription</key>
+        <string>Allows the Installer process access to certain services during Deployment configuration tasks</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>AddressBook</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>/usr/sbin/installer</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.installer" and anchor apple</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>SystemPolicySysAdminFiles</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>/usr/sbin/installer</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.installer" and anchor apple</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>Calendar</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>/usr/sbin/installer</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.installer" and anchor apple</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>AppleEvents</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>/usr/sbin/installer</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.installer" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systempreferences</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systempreferences" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>/usr/sbin/installer</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.installer" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.finder</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.finder" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>/usr/sbin/installer</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.installer" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemevents</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemevents" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>SystemPolicyAllFiles</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>/usr/sbin/installer</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.installer" and anchor apple</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

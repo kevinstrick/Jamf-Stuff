@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>3a5eaaa3-245e-4a0d-8bb2-f08c34945425</string>
+    <key>PayloadType</key>
+    <string>com.apple.TCC.configuration-profile-policy</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>3a5eaaa3-245e-4a0d-8bb2-f08c34945425</string>
+    <key>PayloadDisplayName</key>
+    <string>TCC - Zoom Accessibility</string>
+    <key>PayloadDescription</key>
+    <string>Grant Accessibility privileges for Zoom to use remote control</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>43EFFA9B-C51D-4023-B0CC-21224E90B706</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>ACME</string>
+        <key>PayloadIdentifier</key>
+        <string>C9B6691B-B1E1-4943-A90A-9BA354FF81A6</string>
+        <key>PayloadDisplayName</key>
+        <string>TCC - Zoom Accessibility </string>
+        <key>PayloadDescription</key>
+        <string>Grant Accessibility privileges for Zoom to use remote control</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>Accessibility</key>
+          <array>
+            <dict>
+              <key>Identifier</key>
+              <string>us.zoom.xos</string>
+              <key>CodeRequirement</key>
+              <string>identifier "us.zoom.xos" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = BJ4HAAB9B3</string>
+              <key>IdentifierType</key>
+              <string>bundleID</string>
+              <key>StaticCode</key>
+              <integer>0</integer>
+              <key>Allowed</key>
+              <integer>1</integer>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

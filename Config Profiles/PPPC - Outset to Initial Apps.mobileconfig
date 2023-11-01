@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>45a4fbad-a859-4f36-b8fd-d866d4b38ec8</string>
+    <key>PayloadType</key>
+    <string>com.apple.TCC.configuration-profile-policy</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>45a4fbad-a859-4f36-b8fd-d866d4b38ec8</string>
+    <key>PayloadDisplayName</key>
+    <string>TCC - Outset to Initial Apps</string>
+    <key>PayloadDescription</key>
+    <string>Allows Outset to use Apple Events to open Enterprise Connect, Outlook, Slack</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>B3695636-4B4B-4233-857C-570AE799AFA1</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>B966A7FC-7477-4BD8-91FC-AD6686DE284A</string>
+        <key>PayloadDisplayName</key>
+        <string>TCC - Outset to Initial Apps</string>
+        <key>PayloadDescription</key>
+        <string>Allows Outset to use Apple Events to open Enterprise Connect, Outlook, Slack</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>AppleEvents</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>/usr/local/outset/outset</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.github.outset" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Kevin Strick (KCD76Z8E9U)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.tinyspeck.slackmacgap</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.tinyspeck.slackmacgap" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = BQR82RBBHL</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>/usr/local/outset/outset</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.github.outset" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Kevin Strick (KCD76Z8E9U)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.microsoft.Outlook</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.microsoft.Outlook" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>/usr/local/outset/outset</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.github.outset" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Kevin Strick (KCD76Z8E9U)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.Enterprise-Connect</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.Enterprise-Connect" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

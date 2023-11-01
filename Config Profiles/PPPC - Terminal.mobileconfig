@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>c25b1e7a-1525-495b-a0de-fe5bb725aaa9</string>
+    <key>PayloadType</key>
+    <string>com.apple.TCC.configuration-profile-policy</string>
+    <key>PayloadOrganization</key>
+    <string>ACME Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>c25b1e7a-1525-495b-a0de-fe5bb725aaa9</string>
+    <key>PayloadDisplayName</key>
+    <string>TCC - Terminal</string>
+    <key>PayloadDescription</key>
+    <string/>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>C83FCE31-73D4-4C67-92CF-A9A4415A2329</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>ACME Inc. SCDS</string>
+        <key>PayloadIdentifier</key>
+        <string>6F30343B-2E56-44D2-926F-25DEF96B9453</string>
+        <key>PayloadDisplayName</key>
+        <string>TCC - Terminal</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>AddressBook</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>com.apple.Terminal</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.Terminal" and anchor apple</string>
+              <key>IdentifierType</key>
+              <string>bundleID</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>Calendar</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>com.apple.Terminal</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.Terminal" and anchor apple</string>
+              <key>IdentifierType</key>
+              <string>bundleID</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+          <key>AppleEvents</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string/>
+              <key>Identifier</key>
+              <string>com.apple.Terminal</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.Terminal" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemevents</string>
+              <key>IdentifierType</key>
+              <string>bundleID</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemevents" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>
